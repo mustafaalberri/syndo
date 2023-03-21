@@ -1,0 +1,52 @@
+.review {
+    min-width: clamp(310px, 25vw, 400px);
+    height: clamp(200px, 30vh, 600px);
+    border-radius: 8px;
+    border: solid 1px #656F77;
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 60px;
+}
+
+.picture {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 8%;
+    top: 15%;
+}
+
+.review p:nth-child(2) {
+    position: absolute;
+    left: 28%;
+    top: 13%;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.review p:nth-child(3) {
+    position: absolute;
+    left: 28%;
+    top: 22%;
+    font-size: 16px;
+    color: #7d8083;
+}
+
+.review p:nth-child(4) {
+    position: absolute;
+    left: 80%;
+    top: 16%;
+    font-weight: 900;
+    font-size: 80px;
+    color: #00ACB1;
+    margin: 0;
+}
+
+.review p:nth-child(5) {
+    position: absolute;
+    left: 8%;
+    top: 40%;
+    font-size: clamp(14px, 1.2vw, 15px);
+    color: #7d8083;
+    width: 85%;
+}

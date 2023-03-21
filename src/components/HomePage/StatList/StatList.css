@@ -1,0 +1,35 @@
+.stats__container {
+    margin-top: 70px;
+}
+
+.stats__container h1{
+    margin-left: 80px;
+}
+
+.stat__grid {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    align-items: stretch;
+    justify-items: center;
+    padding: 20px;
+    margin: 30px 80px;
+}
+
+@media screen and (max-width: 1000px){
+    .stat__grid {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .stats__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats__container h1 {
+        margin-left: 0;
+    }
+}

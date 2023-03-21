@@ -1,0 +1,29 @@
+.person_container {
+    width: 80px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linkedin__social {
+    width: 20px;
+    height: 20px;
+    background: url('./linkedin.png');
+    background-color: rgba(45, 45, 45, 0.78);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.p__name {
+    font-weight: 600;
+    font-size: clamp(12px, 0.85vw, 16px);
+}
+
+.p__title {
+    font-size: clamp(11px, 0.8vw, 15px);
+    color: rgb(140, 140, 140);
+}

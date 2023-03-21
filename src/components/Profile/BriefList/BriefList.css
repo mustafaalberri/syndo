@@ -1,0 +1,35 @@
+.infoicon {
+    cursor: pointer;
+    width: 13px;
+    height: 13px;
+    background: url('./imgs/infoicon.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info div:first-child {
+    font-size: 14px;
+    color: rgb(157, 157, 157);
+}
+
+.bt__br {
+    border-bottom: solid 1px rgb(138, 137, 137);
+    padding-bottom: 7px;
+}
+
+.bold {
+    border-bottom: solid 2px rgb(138, 137, 137);
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.br__t {
+    font-weight: 800;
+    padding-bottom: 2px;
+}

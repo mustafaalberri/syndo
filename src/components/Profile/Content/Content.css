@@ -1,0 +1,66 @@
+.container__content p {
+    color: #948f8f;
+    font-weight: 400;
+    font-size: clamp(12px, 0.88vw, 16px);
+    margin-top: 30px;
+}
+
+.content__foot {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    border-bottom: solid 1px #948f8f;
+}
+
+.ft {
+    padding-bottom: 30px;
+}
+
+.content__foot div:nth-child(2) {
+    margin-left: 10%;
+}
+
+.content__foot div:nth-child(3) {
+    margin-left: 10%;
+}
+
+.content__foot .c__head {
+    font-weight: 900;
+    font-size: clamp(16px, 1.4vw, 22px);
+}
+
+.content__foot .c__text {
+    color: #948f8f;
+    font-size: clamp(12px, 0.85vw, 18px);
+}
+
+.people__container {
+    margin-top: 30px;
+}
+
+.people__container .welcome {
+    font-weight: 900;
+    font-size: clamp(16px, 1.4vw, 22px);
+}
+
+.people {
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    align-items: center;
+    justify-items: start;
+    margin-top: 30px;
+}
+
+.pitch__deck {
+    margin-top: 30px;
+}
+
+.title__deck {
+    font-weight: 900;
+    font-size: clamp(16px, 1.4vw, 22px);
+}
+
+.pitch__img {
+    padding-top: 20px;
+}

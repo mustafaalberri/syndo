@@ -1,0 +1,21 @@
+.stat {
+    background: linear-gradient(180deg, rgba(5, 69, 70, 0.7) 0%, rgba(196, 196, 196, 0) 100%);
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 20px;
+    border: none;
+}
+
+.topstat {
+    height: 50%;
+    border-bottom: solid 1px white;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.bottomstat {
+    font-size: 18px;
+    padding-top: 20px;
+}

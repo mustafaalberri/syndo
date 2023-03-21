@@ -1,0 +1,159 @@
+.card__container {
+    width: 320px;
+    background-image: url("./imgs/image.png");
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-size: 100%;
+    border-radius: 7px;
+    border: solid 1px rgba(81, 81, 81, 0.265);
+    position: relative;
+}
+
+.topcard {
+    height: 153px;
+}
+
+.live {
+    background: url('./imgs/live.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 38%;
+    height: 20px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.logo {
+    width: 60px;
+    position: relative;
+    top: 51px;
+    left: 17px;
+    cursor: pointer;
+    border: solid 0.8px rgb(159, 159, 159);
+}
+
+.description {
+    width: 38%;
+    font-size: 11.5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 4px;
+}
+
+.d1 {
+    position: relative;
+    top: 26px;
+    left: 170px;
+    color: #656F77;
+    background: #CDD9E3;
+}
+
+.bottomcard {
+    background: #FFFFFF;
+    height: 220px;
+    border-radius: 0 0 7px 7px;
+}
+
+.bottom__container {
+    position: relative;
+    top: 20px;
+    left: 17px;
+    right: 17px;
+    color: black;
+    width: 90%;
+}
+
+.bottom__container p:first-child {
+    margin: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    cursor: pointer;
+    width: min-content;
+    letter-spacing: 1px;
+}
+
+.bottom__container p:first-child:hover {
+    text-decoration: underline;
+}
+
+.bottom__container p:nth-child(2) {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #656F77;
+}
+
+.d__container {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #CDD9E3;;
+}
+
+.d2 {
+    background: #DDF3F4;
+    color: #00ACB1;
+}
+
+.d3 {
+    background: #FFDEB7;
+    color: #F29304;
+    margin-left: 7px;
+}
+
+.followers {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.followers p {
+    color: #656F77;
+}
+
+.followers span {
+    color: #00ACB1;
+    cursor: pointer;
+}
+
+.followers .profile_icons {
+    width: 50px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.icon {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: #FFFFFF;
+}
+
+.icon1 {
+    background-image: url('./profile icons/profile1.png');
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.icon2 {
+    background: url('./profile icons/profile2.png');
+    background-size: 100%;
+    position: absolute;
+    left: 12px;
+}
+
+.icon3 {
+    background: url('./profile icons/profile3.png');
+    background-size: 100%;
+    position: absolute;
+    left: 24px;
+}

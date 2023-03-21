@@ -1,0 +1,14 @@
+html {
+  width: 100vw;
+}
+
+body {
+  background: #000001;
+  color: white;
+  width: 100%;
+}
+
+.light__mode {
+  background: white;
+  color: #000001;
+}
