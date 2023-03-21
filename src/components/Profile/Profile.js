@@ -64,7 +64,7 @@ const Profile = ({ onRouteChange, profile, onProfile }) => {
                     </div>
                     <div className='descrp'>SERIES A</div>
                     <div className='pf__content'>
-                        <div className='content__head'>
+                        <div className='content__head' style={{color:'#5d5d5d'}}>
                             <div 
                                 id='head1'
                                 className='active__head' 
