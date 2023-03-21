@@ -33,6 +33,7 @@ const Profile = ({ onRouteChange, profile, onProfile }) => {
 
     return (
         <div className='profile__container bg'>
+            <div className='bbgg'></div>
             <div className='nav__container' >
                 <img 
                     className='iconsize ' src={home} alt=""
