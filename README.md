@@ -14,7 +14,7 @@
 This is the front-end application developed using React.
 
 ## Demo
-Try the Demo: [Link](https://www.google.com)
+Try the Demo: [Link](https://magical-stardust-51bdc6.netlify.app)
 
 ## Support
 Please contact Mustafa Alberri: (E-mail) *mustafaalberri@gmail.com* for support.
