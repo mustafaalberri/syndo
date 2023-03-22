@@ -94,7 +94,8 @@ const Subscribe1 = ({ onRouteChange, onStepChange, profile, onProfile }) => {
                  <div className='round'>
                     <Round features={profile}
                            onRouteChange={onRouteChange}
-                           onProfile={onProfile} />
+                           onProfile={onProfile} 
+                    />
                 </div>
             </div>
             <div>
