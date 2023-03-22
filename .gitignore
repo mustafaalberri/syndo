@@ -9,7 +9,9 @@
 /coverage
 
 # production
-/build2
+/build
+/build (gh-pages)
+/build (netlify)
 
 # misc
 .DS_Store
