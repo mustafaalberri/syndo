@@ -11,7 +11,7 @@
 * [Authors and Acknowledgment](#authors-and-acknowledgment)
 
 ## Overview
-This is the front-end application developed using React.
+This is the front-end application developed using React. This is a front end application for a company called Syndo developed by React with modern design and features. The website contains a landing page, profiles for rounds, interactive content, and a submission form with field validation. The program highly utilizes the React components tree structure for optimum efficiency, code readability and reusability.
 
 ## Demo
 Try the Demo: [Link](https://magical-stardust-51bdc6.netlify.app)
